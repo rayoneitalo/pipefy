@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin-bottom: 10px;
   padding: 15px;
   box-shadow: 0 3px 4px 0 rgba(192, 208, 230, 0.8);
-  border-top: 20px solid rgba(230, 236, 245, 0.5);
+  border-top: 20px solid rgba(230, 236, 245, 0.4);
   cursor: grab;
 
   header {
@@ -29,4 +29,9 @@ export const Container = styled.div`
   }
 `;
 
-export const Label = styled.span``;
+export const Label = styled.span`
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: ${props => props.color};
+`;
