@@ -5,7 +5,7 @@ import React from 'react';
 export default function Header() {
   return (
     <Container>
-      <h1>Pipefy</h1>
+      <h1>Codefy</h1>
     </Container>
   );
 }

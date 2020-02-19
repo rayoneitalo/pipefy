@@ -12,7 +12,6 @@ export default function Board() {
       <List />
       <List />
       <List />
-
     </Container>
   );
 }
